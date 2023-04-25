@@ -2,22 +2,24 @@ package openBootcamp;
 
 public class Coche {
     
-    private int puertas;
+    private int puertas = 4;
 
-    public void setPuertas(int n) {
-        puertas = n;
-    }
-
-    public int sumarPuertas(int n) {
-        return puertas + n;
+    public void sumarPuertas(int n) {
+        int resultado = puertas + n;
+        puertas = resultado;
+        
     }
 
     public static void main(String[] args) {
         Coche carro;
         carro = new Coche();
-        carro.setPuertas(4);
-        carro.sumarPuertas(1);
-       System.out.println(carro);
+        carro.sumarPuertas(2);
+        System.out.println(carro.puertas);
+        Coche carro2;
+        carro2 = new Coche();
+        carro2.sumarPuertas(1);
+        System.out.println(carro2.puertas);
+
     }
 
 }
