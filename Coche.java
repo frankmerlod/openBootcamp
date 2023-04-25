@@ -13,12 +13,8 @@ public class Coche {
     public static void main(String[] args) {
         Coche carro;
         carro = new Coche();
-        carro.sumarPuertas(2);
+        carro.sumarPuertas(1);
         System.out.println(carro.puertas);
-        Coche carro2;
-        carro2 = new Coche();
-        carro2.sumarPuertas(1);
-        System.out.println(carro2.puertas);
 
     }
 
