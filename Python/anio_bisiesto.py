@@ -1,4 +1,4 @@
-def Anio_bisiesto(anio):
+def anio_bisiesto(anio):
     if anio % 4 == 0:
         if anio % 100 == 0:
             if anio % 400 == 0:
@@ -11,4 +11,4 @@ def Anio_bisiesto(anio):
         return f'{anio} NO es Bisiesto'
     
 for i in range(1900,2500):
-    print(Anio_bisiesto(i))
+    print(anio_bisiesto(i))
