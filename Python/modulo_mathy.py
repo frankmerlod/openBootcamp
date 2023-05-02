@@ -1,5 +1,5 @@
 import mathy.mathy as mat
-# Modulo mathy ==> https://github.com/frankmerlod/openBootcamp/tree/main/Python/mathy
+# Paquete mathy ==> https://github.com/frankmerlod/openBootcamp/tree/main/Python/mathy
 
 print(mat.suma(5,3))
 print(mat.resta(10,8))
