@@ -1,7 +1,7 @@
 from functools import reduce
 
 def num_par(lista):
-    res = filter((lambda x: x % 2 == 0), lista)
+    res = filter((lambda x: x % 2 > 0), lista)
     return list(res)
 
 def sumador(lista):
